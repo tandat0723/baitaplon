@@ -337,7 +337,7 @@ div.right1{
 }
 
 div.tipes{
-    background-image: url(images/bg-tit.png);
+    background-image: url(../images/bg-tit.png);
     background-repeat: no-repeat;
     width: 323px;
     font-weight: bold;
@@ -386,7 +386,7 @@ div.news{
     width: 100%;
 }
 div.news>h3{
-    background-image: url(images/bg-tit.png);
+    background-image: url(../images/bg-tit.png);
     background-repeat: no-repeat;
     height: 35px;
 }
@@ -405,7 +405,7 @@ div.footline{
     background-color: #179dba;
 }
 div.chopfoot{
-    background-image: url(images/Mercedes-AMG\ Treats\ Audi_s\ Four\ Rings\ Challenge\ With\ Donuts\ _\ Carscoops.jpg);
+    background-image: url(../images/Mercedes-AMG\ Treats\ Audi_s\ Four\ Rings\ Challenge\ With\ Donuts\ _\ Carscoops.jpg);
     height: 350px;
     background-repeat: no-repeat;
     background-size: cover;
