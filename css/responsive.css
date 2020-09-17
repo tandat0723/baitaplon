@@ -189,12 +189,14 @@
     }
 
     div.tipe{
-        height: 8px;
+        height: 10px;
         background-color: red;
-        padding: 4px;
+        padding: 3px;
+        width: 200px;
+        background-image: none;
     }
     div.tipe>a{
-        font-size: 8px;
+        font-size: 8px;        
     }
 
     div.pagetext{
@@ -206,47 +208,65 @@
     
     div.tipes{
         text-align: center;
-        padding: 5px;
-        font-size: 15px;
-        width: 220px;
+        padding: 2px;
+        font-size: 8px;
+        width: 100px;
         background-image: linear-gradient(red,darkred);
     }
-
-    footer{
-        height: ;
+    div.exx>li>a{
+        font-size: 8px;
     }
-    div.logofoot>iframe{
+    div.exx{
+        top: 40px;
+        width: 5%;
+    }
+
+    div.tell{
+        font-size: 8px;
+    }
+    div.logofoot{
         display: none;
     }
     div.foottext{
-        margin-left: -40px;
-        margin-top: -1px;
+        margin-left:-60px;
+        margin-top: 10px;
     }
     div.foottext>h6{
-        font-size: 12px;
+        font-size: 8px;
     }
     div.foottext>p{
-        font-size: 10px;
+        font-size: 6px;
     }
-
+    form.add>input{
+        width: 80px;
+    }
     div.fontfoot{
-        margin-top: -10px;
+        margin-top: 0px;
     }
     div.fontfoot>h6{
-        font-size: 12px;
+        font-size: 8px;
     }
     div.fontfoot>p{
-        font-size: 10px;
+        font-size: 6px;
     }
-
-    form.add>input{
+    #name{
+        width: 100px;
+        font-size: 6px;
+    }
+    #email{
+        width: 100px;
+        font-size: 6px;
+    }
+    form.add >input{
         height: 20px;
         font-size: 12px;
-        width: 180px;
+        width: 100px;
     }
     .dangki{
-        width: 60px !important;
-        font-size: 10px !important;
+        width: 40px !important;
+        font-size: 6px !important;
         padding: 2px;
     }
+    div.chopfoot{
+        height: 150px;
 }

@@ -423,7 +423,7 @@ div.logofoot>iframe{
 
 div.foottext{
     margin-left: 20px;
-    margin-top: 60px;
+    margin-top: 15px;
     color: white;
     font-size: 14px;;
 }
@@ -441,9 +441,9 @@ div.fontfoot{
     margin-bottom: 5px;
     border-radius: 5px;
     padding: 5px;
-    opacity: .5;
-    background-color: black;
-    color: white;
+    opacity: .9;
+    background-color: white;
+    color: black;
     width: 250px;
 }
 input:not(:placeholder-shown) {
@@ -459,9 +459,9 @@ input:not(:placeholder-shown) {
     margin-bottom: 10px;
     border-radius: 5px;
     padding: 5px;
-    opacity: .5;
-    background-color: black;
-    color: white;
+    opacity: .9;
+    background-color: white;
+    color: black;
     width: 250px;
 }
 #design{

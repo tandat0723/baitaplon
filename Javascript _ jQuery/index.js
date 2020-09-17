@@ -21,10 +21,25 @@ $(document).ready(function () {
 
   $("div.mini img").click(function() {
     $("#Main").attr("src" , $(this).attr('src'));
+  })
+
+
+  $("#name").click(function () {
+    if (!$(this).val()) {
+        $(this).css("border", "2px solid red");
+    }
+    console.log("cc");
+})
+  $("#email").click(function () {
+  if (!$(this).val()) {
+      $(this).css("border", "2px solid red");
+  }
+  console.log("cc");
 })
 
-
 });
+
+
 window.onscroll = function() {
     console.info(document.documentElement.scrollTop);
     var nav = document.getElementById("mynav");
