@@ -22,9 +22,8 @@ div.gotop>a{
     display: block;
     padding: 10px;
     font-weight: bold;
-    color: blanchedalmond;
+    color: blanchedalmond; 
     animation: lightthink 1s infinite;
-}
 @keyframes lightthink{
     from{
         color: blanchedalmond;
