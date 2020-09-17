@@ -1,0 +1,170 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+img{
+    cursor: pointer;
+}
+/* css gotop*/
+div.gotop{
+    position: fixed;
+    background-color: black;
+    opacity: .6;
+    right: 10px;
+    bottom: 20px;
+    border-radius: 10px;
+    margin: 0px;
+    padding: 0px;
+    display: none;
+}
+div.gotop>a{
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    font-weight: bold;
+    color: blanchedalmond;
+    animation: lightthink 1s infinite;
+}
+@keyframes lightthink{
+    from{
+        color: blanchedalmond;
+    }
+    to{
+        color: red;
+    }
+}
+/* css header */
+header{
+    background-color: black;
+}
+div.logo{
+    width: 15%;
+}
+div.logo>img{
+    width: 100%;
+    margin-left: 100px;
+}
+td.heads{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+/* css nav*/
+ul.content{
+    list-style-type: none;
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+}
+ul.content>li{
+    min-width: 100px;
+}
+ul.content>li>a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 10px;
+    display: block;
+}
+ul.content>li>a:hover{
+    background-color: #179dba;
+    border-radius: 10px 10px 0 0;
+}
+div.line{
+    width: 100%;
+    height: 3px;
+    background-color: #179dba;
+}
+
+
+/* css section */
+ul.share{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+ul.share>li{
+    position: fixed;
+    background-color: black;
+    min-width: 120px;
+    text-align: right;
+    border-bottom:  1px solid gold;
+    border-right: 1px solid gold;
+    z-index: 999;
+    left: -95px;
+    transition: left .5s;
+    border-radius: 0 10px 10px 0;
+}
+ul.share>li:hover{
+    left: 0;
+}
+ul.share>li>a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: block;
+}
+ul.share>li:nth-child(1){
+    top: 132px;
+    border-top: 1px solid gold;
+}
+ul.share>li:nth-child(2){
+    top: 178px;
+}
+ul.share>li:nth-child(3){
+    top: 223px;
+}
+ul.share>li:nth-child(4){
+    top: 268px;
+}
+/* css section */
+
+
+ div.menugallery{
+     width: 70%;
+     margin: 0px auto;
+ }
+
+div.title{
+    padding: 10px 0px;
+    margin: 5px 0px;
+    
+}
+div.title>h2{
+    text-align: center;
+    width: 790px;
+    background-image: linear-gradient(yellow, orange, red, darkred);
+    border-radius: 10px;
+    font-weight: bold;
+    text-shadow: 3px 2px black ;
+    animation: doimau 3s ease-in-out infinite;
+}
+@keyframes doimau{
+    0%{
+        color: lightblue;
+    }
+    40%{
+        color: lightskyblue;
+    }
+    70%{
+        color: blue;
+    }
+}
+
+ div.gallery{
+     width: 48%;
+     margin: 1% auto;
+     margin-right: 1%;
+     border: 1px solid yellow;
+     border-radius: 10px;
+     float: left;
+ }
+ div.gallery>a>img{
+     width: 100%;
+     height: 350px;
+     border-radius: 10px;
+ }
+
+
